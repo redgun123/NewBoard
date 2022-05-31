@@ -6,7 +6,7 @@
 <mapper namespace="me.Lja.mapper.BoardMapper">
 
 	<select id="getList" resultType="me.Lja.model.Board">
-		select * from Board.ex
+		select * from board_tbl;
 	</select>
 	
 </mapper>

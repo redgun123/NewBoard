@@ -16,7 +16,7 @@ public class Board {
 		this.regDate = regDate;
 		this.updateDate = updateDate;
 	}
-
+ 
 	public Long getBno() {
 		return bno;
 	}
